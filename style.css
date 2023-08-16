@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+nav img{
+    width: 280px;
+}
+nav ul {
+    display:flex;
+    list-style: none;
+    gap: 20px;
+}
+nav {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.making_section{
+    width: 65%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0% auto;
+}
+.making_section img{
+    width: 65px;
+}
+.making_section div{
+    display: flex;
+}
+.paragraphs{
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    width: 65%;
+}
+.card {
+ width: 25%;
+ background-color: rgb(58, 118, 118);
+ margin: 0% auto;
+ justify-content: space-between;
+ border-radius: 10px;
+ padding:20px;
+ height: 300px;
+}
+.cards{
+    display: flex;
+justify-content: space-between;
+}
+.card select{
+   background-color: transparent;
+   border: none;
+}
+.improve{
+    justify-content: center;
+    width: 40%;
+    margin: 0% auto;
+}
+.improve h1{
+  font-weight: 25%;
+  color: aquamarine;
+
+}
+.country div{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.countries{
+    width: 65%;
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.country{
+    width: 28%;
+}
+.country img{
+    background-color: aqua;
+    color: white;
+    outline:none;
+    border: none;
+    width: 100%;
+}
+.country button{
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    border:none
+}
+.join{
+    align-items: center;
+    margin: 0% auto;
+    justify-content: center;
+    width: 40%;
+}
+.join button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
